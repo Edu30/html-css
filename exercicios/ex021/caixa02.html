@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            color: green;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav {
+            background-color: maroon;
+            padding: 3px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.626); /*sombra*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            color: green;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+
+        article {
+            background-color: rgba(255, 255, 0, 0.179);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(255, 255, 0, 0.408);
+        }
+
+        footer {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Título do site</h1>
+
+        <nav> <!--Navegação, menu do site, etc.-->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main> <!--Conteúdo principal-->
+        <section> <!--Seção-->
+            <h2>Primeiro Conteúdo</h2>
+            <p>Primeiro parágrafo, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tempore, debitis harum eveniet eum corporis iure praesentium unde, consectetur sunt, animi nemo ducimus sit nulla saepe neque consequuntur error iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia placeat fugiat, tenetur ducimus molestiae corrupti doloremque. Impedit mollitia fugit quidem, voluptas, facilis distinctio laudantium, at dolorum amet cupiditate nemo maxime.</p>
+        </section>
+        <section>
+            <h2>Segundo Conteúdo</h2>
+            <p>Segundo parágrafo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate sint sequi ex! Nemo, saepe debitis. Saepe excepturi corrupti ipsam ipsa quisquam repellat, numquam magni porro, aspernatur eius, provident nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repudiandae nam magnam, quas, ipsam architecto, fuga quae sed ex pariatur dolorem molestiae totam. Aperiam dicta quos odit, sed temporibus iure!</p>
+            <article> <!--Artigo-->
+                <p>Primeiro artigo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minima eaque quas beatae architecto a, odio dolor tenetur est libero, mollitia cupiditate! Alias magni qui iusto nihil consequatur iure quod?</p>
+            </article>
+            <article>
+                <p>Segundo artigo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti et voluptas eius error saepe delectus labore quos adipisci, quia placeat consequuntur sequi temporibus eveniet voluptatum, suscipit, atque dolore omnis.</p>
+                <aside> <!--A parte(Conteúdo extra, periférico.)-->
+                    <p>Conteúdo a parte, Lorem ipsum dolor sit amet consectetur adipisicing elit. Est architecto, optio quidem atque deserunt delectus odio nemo, accusamus accusantium nesciunt in possimus enim similique dolorem, cupiditate corporis quas voluptatum impedit!</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!--Rodapé-->
+        <p>Rodapé do site.</p>
+    </footer>
+    
+</body>
+</html>
