@@ -22,7 +22,7 @@
     }
 }
 
-/* Declarações retrato */
+/* Declarações de retrato */
 @media screen and (orientation:portrait) {
     body {
         background-image: url(../imagens/cev-portrait.jpg);
@@ -30,7 +30,7 @@
     }
 }
 
-/* Declarações paisagem */
+/* Declarações de paisagem */
 @media screen and (orientation:landscape){
     body {
         background-image: url(../imagens/cev-landscape.jpg);
